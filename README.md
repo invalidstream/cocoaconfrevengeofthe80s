@@ -1,5 +1,5 @@
 # cocoaconfrevengeofthe80s
-Sample code for CocoaConf "Revenge of the 80s" session
+Sample code for CocoaConf "Revenge of the 80s" session. Slides for this session are available [on Slideshare.net](http://www.slideshare.net/invalidname/attack-ofthe80scocoaconfchicago2015)
 
 DuranDuranFans - Mac project to show cut/copy/paste and undo/redo. Defines a custom UTI for in-app c&p, puts a string on the pasteboard for other apps to use
 
