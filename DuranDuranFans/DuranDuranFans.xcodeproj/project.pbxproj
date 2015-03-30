@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017C4C3E1A9A59DE00FADA1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C4C3D1A9A59DE00FADA1F /* AppDelegate.swift */; };
+		017C4C401A9A59DE00FADA1F /* FanClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C4C3F1A9A59DE00FADA1F /* FanClubViewController.swift */; };
+		017C4C421A9A59DE00FADA1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017C4C411A9A59DE00FADA1F /* Images.xcassets */; };
+		017C4C451A9A59DE00FADA1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017C4C431A9A59DE00FADA1F /* Main.storyboard */; };
+		017C4C511A9A59DE00FADA1F /* DuranDuranFansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C4C501A9A59DE00FADA1F /* DuranDuranFansTests.swift */; };
+		017C4C5B1A9A604C00FADA1F /* FanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C4C5A1A9A604C00FADA1F /* FanViewController.swift */; };
+		01F97E4C1AC5C156004D5790 /* Fan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F97E4B1AC5C156004D5790 /* Fan.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		017C4C4B1A9A59DE00FADA1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 017C4C301A9A59DE00FADA1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 017C4C371A9A59DE00FADA1F;
+			remoteInfo = DuranDuranFans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017C4C381A9A59DE00FADA1F /* DuranDuranFans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuranDuranFans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		017C4C3C1A9A59DE00FADA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017C4C3D1A9A59DE00FADA1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		017C4C3F1A9A59DE00FADA1F /* FanClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanClubViewController.swift; sourceTree = "<group>"; };
+		017C4C411A9A59DE00FADA1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		017C4C441A9A59DE00FADA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		017C4C4A1A9A59DE00FADA1F /* DuranDuranFansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuranDuranFansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		017C4C4F1A9A59DE00FADA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017C4C501A9A59DE00FADA1F /* DuranDuranFansTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuranDuranFansTests.swift; sourceTree = "<group>"; };
+		017C4C5A1A9A604C00FADA1F /* FanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanViewController.swift; sourceTree = "<group>"; };
+		01F97E4B1AC5C156004D5790 /* Fan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fan.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		017C4C351A9A59DE00FADA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017C4C471A9A59DE00FADA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		017C4C2F1A9A59DE00FADA1F = {
+			isa = PBXGroup;
+			children = (
+				017C4C3A1A9A59DE00FADA1F /* DuranDuranFans */,
+				017C4C4D1A9A59DE00FADA1F /* DuranDuranFansTests */,
+				017C4C391A9A59DE00FADA1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		017C4C391A9A59DE00FADA1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				017C4C381A9A59DE00FADA1F /* DuranDuranFans.app */,
+				017C4C4A1A9A59DE00FADA1F /* DuranDuranFansTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		017C4C3A1A9A59DE00FADA1F /* DuranDuranFans */ = {
+			isa = PBXGroup;
+			children = (
+				017C4C3D1A9A59DE00FADA1F /* AppDelegate.swift */,
+				017C4C3F1A9A59DE00FADA1F /* FanClubViewController.swift */,
+				017C4C5A1A9A604C00FADA1F /* FanViewController.swift */,
+				01F97E4B1AC5C156004D5790 /* Fan.swift */,
+				017C4C411A9A59DE00FADA1F /* Images.xcassets */,
+				017C4C431A9A59DE00FADA1F /* Main.storyboard */,
+				017C4C3B1A9A59DE00FADA1F /* Supporting Files */,
+			);
+			path = DuranDuranFans;
+			sourceTree = "<group>";
+		};
+		017C4C3B1A9A59DE00FADA1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				017C4C3C1A9A59DE00FADA1F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		017C4C4D1A9A59DE00FADA1F /* DuranDuranFansTests */ = {
+			isa = PBXGroup;
+			children = (
+				017C4C501A9A59DE00FADA1F /* DuranDuranFansTests.swift */,
+				017C4C4E1A9A59DE00FADA1F /* Supporting Files */,
+			);
+			path = DuranDuranFansTests;
+			sourceTree = "<group>";
+		};
+		017C4C4E1A9A59DE00FADA1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				017C4C4F1A9A59DE00FADA1F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		017C4C371A9A59DE00FADA1F /* DuranDuranFans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017C4C541A9A59DE00FADA1F /* Build configuration list for PBXNativeTarget "DuranDuranFans" */;
+			buildPhases = (
+				017C4C341A9A59DE00FADA1F /* Sources */,
+				017C4C351A9A59DE00FADA1F /* Frameworks */,
+				017C4C361A9A59DE00FADA1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuranDuranFans;
+			productName = DuranDuranFans;
+			productReference = 017C4C381A9A59DE00FADA1F /* DuranDuranFans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		017C4C491A9A59DE00FADA1F /* DuranDuranFansTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017C4C571A9A59DE00FADA1F /* Build configuration list for PBXNativeTarget "DuranDuranFansTests" */;
+			buildPhases = (
+				017C4C461A9A59DE00FADA1F /* Sources */,
+				017C4C471A9A59DE00FADA1F /* Frameworks */,
+				017C4C481A9A59DE00FADA1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				017C4C4C1A9A59DE00FADA1F /* PBXTargetDependency */,
+			);
+			name = DuranDuranFansTests;
+			productName = DuranDuranFansTests;
+			productReference = 017C4C4A1A9A59DE00FADA1F /* DuranDuranFansTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		017C4C301A9A59DE00FADA1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Subsequently & Furthermore, Inc.";
+				TargetAttributes = {
+					017C4C371A9A59DE00FADA1F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					017C4C491A9A59DE00FADA1F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 017C4C371A9A59DE00FADA1F;
+					};
+				};
+			};
+			buildConfigurationList = 017C4C331A9A59DE00FADA1F /* Build configuration list for PBXProject "DuranDuranFans" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 017C4C2F1A9A59DE00FADA1F;
+			productRefGroup = 017C4C391A9A59DE00FADA1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				017C4C371A9A59DE00FADA1F /* DuranDuranFans */,
+				017C4C491A9A59DE00FADA1F /* DuranDuranFansTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		017C4C361A9A59DE00FADA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017C4C421A9A59DE00FADA1F /* Images.xcassets in Resources */,
+				017C4C451A9A59DE00FADA1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017C4C481A9A59DE00FADA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		017C4C341A9A59DE00FADA1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017C4C5B1A9A604C00FADA1F /* FanViewController.swift in Sources */,
+				01F97E4C1AC5C156004D5790 /* Fan.swift in Sources */,
+				017C4C401A9A59DE00FADA1F /* FanClubViewController.swift in Sources */,
+				017C4C3E1A9A59DE00FADA1F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017C4C461A9A59DE00FADA1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017C4C511A9A59DE00FADA1F /* DuranDuranFansTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		017C4C4C1A9A59DE00FADA1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 017C4C371A9A59DE00FADA1F /* DuranDuranFans */;
+			targetProxy = 017C4C4B1A9A59DE00FADA1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		017C4C431A9A59DE00FADA1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017C4C441A9A59DE00FADA1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		017C4C521A9A59DE00FADA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		017C4C531A9A59DE00FADA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		017C4C551A9A59DE00FADA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DuranDuranFans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		017C4C561A9A59DE00FADA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DuranDuranFans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		017C4C581A9A59DE00FADA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DuranDuranFansTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuranDuranFans.app/Contents/MacOS/DuranDuranFans";
+			};
+			name = Debug;
+		};
+		017C4C591A9A59DE00FADA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DuranDuranFansTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuranDuranFans.app/Contents/MacOS/DuranDuranFans";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017C4C331A9A59DE00FADA1F /* Build configuration list for PBXProject "DuranDuranFans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017C4C521A9A59DE00FADA1F /* Debug */,
+				017C4C531A9A59DE00FADA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017C4C541A9A59DE00FADA1F /* Build configuration list for PBXNativeTarget "DuranDuranFans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017C4C551A9A59DE00FADA1F /* Debug */,
+				017C4C561A9A59DE00FADA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017C4C571A9A59DE00FADA1F /* Build configuration list for PBXNativeTarget "DuranDuranFansTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017C4C581A9A59DE00FADA1F /* Debug */,
+				017C4C591A9A59DE00FADA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 017C4C301A9A59DE00FADA1F /* Project object */;
+}
